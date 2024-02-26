@@ -12,4 +12,5 @@ az acr build \
     "https://github.com/Azure-Samples/container-apps-ci-cd-runner-tutorial.git"
 EOF
   }
+  depends_on = [azurerm_container_registry.main]
 }
