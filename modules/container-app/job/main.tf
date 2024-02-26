@@ -59,7 +59,7 @@ resource "azapi_resource" "github_runner" {
         ]
         triggerType = "Event"
       }
-      environmentId = azurerm_container_app_environment.main.id
+      environmentId = var.container_app_environment_id
       template = {
         containers = [
           {

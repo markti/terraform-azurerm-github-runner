@@ -1,2 +1,5 @@
-modules/container-app/host/.debug.sh
-modules/container-app/host/.debug.tfvars
+**/*.tfstate*
+**/.terraform*
+**/.terraform/*
+**/.debug.sh
+**/.debug.tfvars

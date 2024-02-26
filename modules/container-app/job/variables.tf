@@ -16,6 +16,12 @@ variable "github_owner" {
 variable "github_repo" {
   type = string
 }
+variable "container_app_environment_id" {
+  type = string
+}
+variable "container_registry_id" {
+  type = string
+}
 variable "container_registry_endpoint" {
   type = string
   validation {
