@@ -1,5 +1,5 @@
-# terraform-azurerm-github-runner
-Provision a Custom Runner for GitHub Actions
+# Overview
+This module library contains two modules. The first module that provisions a Container App Environment and other Azure resources to host one or more GitHub Custom Runners as Container App Jobs. The second module provisions a Container App Job that will act as a GitHub Custom Runner for the specified GitHub repository. This Container App Job uses the container image and the GitHub token stored in KeyVault from the host environment.
 
 ## Host Environment
 
